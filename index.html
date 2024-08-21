@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="retro">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,58 +12,63 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-     <!-- header-here -->
-    <header class=" px-5 md:px-40 py-6">
-        <div class="navbar bg-base-100 p-0 md:p-2">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
+
+  <!-- header-here -->
+    <header class=" py-6 px-4 md:px-32  ">
+        <!-- container -->
+          <div class="container mx-auto">
+            <div class="navbar bg-base-100  md:p-2">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Item 1</a></li>
+                      <li><a>Item 3</a></li>
+                      <li><a>Item 3</a></li>
+                      <li><a>Item 3</a></li>
+                      <li><a>Item 3</a></li>
+                    </ul>
+                  </div>
+                  <a class="text-4xl  font-bold">Hockey<span class="text-orange-600">’</span>s</a>
                 </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Item 1</a></li>
-                  <li><a>Item 3</a></li>
-                  <li><a>Item 3</a></li>
-                  <li><a>Item 3</a></li>
-                  <li><a>Item 3</a></li>
-                </ul>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-[#89898B] text-xl capitalize font-medium ">
+                    <li class="hover:text-orange-400"><a>home</a></li>
+                      <li class="hover:text-orange-400"><a>about</a></li>
+                      <li class="hover:text-orange-400"><a>pages</a></li>
+                      <li class="hover:text-orange-400"><a> blog</a></li>
+                      <li class="hover:text-orange-400"><a>contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <a href="" class=" hidden sm:contents"><i class="fa-solid fa-magnifying-glass text-[#89898B] text-base mr-4"></i></a>
+                  <a href="" class="btn btn-error text-xl text-white">Get Ticket</a>
+                </div>
               </div>
-              <a class="text-4xl  font-bold">Hockey<span class="text-orange-600">’</span>s</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1 text-[#89898B] text-xl capitalize font-medium ">
-                <li class="hover:text-orange-400"><a>home</a></li>
-                  <li class="hover:text-orange-400"><a>about</a></li>
-                  <li class="hover:text-orange-400"><a>pages</a></li>
-                  <li class="hover:text-orange-400"><a> blog</a></li>
-                  <li class="hover:text-orange-400"><a>contact</a></li>
-              </ul>
-            </div>
-            <div class="navbar-end">
-                <a href="" class="mr-4 hidden sm:contents"><i class="fa-solid fa-magnifying-glass text-[#89898B] text-base"></i></a>
-              <a class="btn btn-error text-xl text-white">Get Ticket</a>
-            </div>
           </div>
+       
     </header>
 
     <!-- main-secton-started-here -->
-      <main class="">
+      <main class="px-6 md:px-32">
 
           <!-- carosel-section-started-here -->
-            <section class="px-6 md:px-32 py-10">
+            <section class=" py-10">
                  <!-- conatiner-here -->
                  <div class="container mx-auto md:relative flex flex-col gap-5">
                      <!--carosel-here  -->
@@ -109,6 +114,59 @@
                        </div>        
                   </div>   
             </section>
+
+            <!-- radial-proggess-bar-section -->
+
+               <section class="py-20">
+                  <!-- conatiner-here -->
+                  <div class="container mx-auto">
+                     <!-- top-content-wrap -->
+                       <div class="w-full mx-auto text-center space-y-6  border-t-2 border-dashed border-[#13131833] py-12 ">
+                           <h1 class="text-4xl font-extrabold text-[#131318]">Professional Hockeys Club</h1>
+                           <p class="text-base font-medium text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
+                       </div>
+                     <!-- bottom-content-wrap -->
+                       <div class="text-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 pb-24 pt-12 border-y-2 border-dashed border-[#13131833] ">
+                           <!--card-1 -->
+                            <div class="text-center ">
+                                <div class="radial-progress text-[#FF4240] -rotate-180  relative" style="--value:87;" role="progressbar"><span class="rotate-180">87%</span>
+                                    <div class="radial-progress text-[#E7E7E8] -rotate-180 absolute left-0 top-0 -z-10" style="--value:87;" role="progressbar"></div>
+                                </div>
+                                
+                                <h3 class="text-xl font-extrabold text-[#131318]  my-3">Prayer Facility</h3>
+                                <p class="text-base font-medium text-[#13131899]">Amet consectetur. Condimentum dignissim adipiscing .</p>  
+                            </div>
+                            <!--card-2 -->
+                            <div class="text-center ">
+                                <div class="radial-progress text-[#49D293] -rotate-180  relative" style="--value:95;" role="progressbar"><span class="rotate-180">95%</span>
+                                    <div class="radial-progress text-[#E7E7E8] -rotate-180 absolute left-0 top-0 -z-10" style="--value:87;" role="progressbar"></div>
+                                </div>
+                                
+                                <h3 class="text-xl font-extrabold text-[#131318]  my-3">Prayer Facility</h3>
+                                <p class="text-base font-medium text-[#13131899]">Amet consectetur. Condimentum dignissim adipiscing .</p>  
+                            </div>
+                            <!--card-3 -->
+                            <div class="text-center ">
+                                <div class="radial-progress text-[#FF4240] -rotate-180  relative" style="--value:90;" role="progressbar"><span class="rotate-180">90%</span>
+                                    <div class="radial-progress text-[#E7E7E8] -rotate-180 absolute left-0 top-0 -z-10" style="--value:87;" role="progressbar"></div>
+                                </div>
+                                
+                                <h3 class="text-xl font-extrabold text-[#131318]  my-3">Prayer Facility</h3>
+                                <p class="text-base font-medium text-[#13131899]">Amet consectetur. Condimentum dignissim adipiscing .</p>  
+                            </div>
+                            <!--card-4-->
+                            <div class="text-center ">
+                                <div class="radial-progress text-[#4C8DF1] -rotate-180  relative" style="--value:87;" role="progressbar"><span class="rotate-180">80%</span>
+                                    <div class="radial-progress text-[#E7E7E8] -rotate-180 absolute left-0 top-0 -z-10" style="--value:80;" role="progressbar"></div>
+                                </div>
+                                
+                                <h3 class="text-xl font-extrabold text-[#131318] my-3">Prayer Facility</h3>
+                                <p class="text-base font-medium text-[#13131899]">Amet consectetur. Condimentum dignissim adipiscing .</p>  
+                            </div>
+                         
+                       </div>
+                  </div>
+               </section>
          
       </main>
 
