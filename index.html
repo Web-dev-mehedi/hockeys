@@ -11,10 +11,10 @@
     <script src="https://kit.fontawesome.com/8311064123.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body style=" font-family:Manrope">
 
   <!-- header-here -->
-    <header class=" py-6 px-2 lg:px-16 xl:px-32 ">
+    <header class=" py-6 px-2 lg:px-16 xl:px-32 font">
         <!-- container -->
           <div class="container mx-auto">
             <div class="navbar bg-base-100 px-0 md:p-2">
@@ -36,12 +36,12 @@
                     </div>
                     <ul
                       tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Item 1</a></li>
-                      <li><a>Item 3</a></li>
-                      <li><a>Item 3</a></li>
-                      <li><a>Item 3</a></li>
-                      <li><a>Item 3</a></li>
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow capitalize">
+                      <li><a>home</a></li>
+                      <li><a>about</a></li>
+                      <li><a>pages</a></li>
+                      <li><a>blog</a></li>
+                      <li><a>contact</a></li>
                     </ul>
                   </div>
                   <a class="text-4xl  font-bold">Hockey<span class="text-orange-600">’</span>s</a>
@@ -173,7 +173,7 @@
                        <div class="container mx-auto">
                           <!-- top-content-wrap -->
                              <div class="w-full mx-auto text-center space-y-6  border-y-2 border-dashed border-[#13131833] py-12 ">
-                                <h1 class="text-3xl md:text-4xl  font-extrabold text-[#131318]">Our New Products</h1>
+                                <h1 class="text-3xl md:text-4xl  font-extrabold text-[#131318]">Program Sections</h1>
                                 <p class="text-base font-medium text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
                              </div>
                        <!-- bottomwrap-content -->
@@ -212,7 +212,7 @@
                             <div class="hero md:col-span-2"
                             style="background-image: url(./Images/4.png); border-radius: 16px; background-position:center; background-size: cover;">
                             <div class="hero-overlay bg-opacity-60 rounded-lg"></div>
-                             <div class="hero-content text-neutral-content text-left">
+                             <div class="hero-content max-w-[100rem] justify-start text-neutral-content text-left">
                                <div class="p-4 md:pt-20 md:px-10 md:pb-10">
                                  <h1 class="mb-5  text-3xl md:text-5xl font-bold">Professional Program</h1>
                                     <p class="mb-5">
@@ -229,7 +229,7 @@
 
         <!-- our-new-products-section-here -->
 
-         <section class="pb-32">
+         <section class="pb-20 md:pb-32">
              <!-- container-here -->
              <div class="container mx-auto">
                 <!-- top-content-wrap -->
@@ -241,7 +241,7 @@
                        </div>
                     </div>
                <!-- bottom-content-wrap -->
-                   <div class="grid grid-cols-1 md:grid-cols-2 gap-6 ">
+                   <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 ">
 
                  <!-- card-1 -->
                     <div class=" p-5 border-2 border-[#1313181A] rounded-2xl lg:flex justify-between items-center gap-5 ">
@@ -587,17 +587,17 @@
          </section>
 
           <!-- get-in-touch-section-here -->
-             <section class="pt-10 pb-20 md:py-20">
+             <section class="py-10 md:pt-14">
                   <!-- container-here -->
                      <div class="container mx-auto">
                            
                         <!-- top-side-content-here -->
-                          <div class="w-full mx-auto text-center space-y-6  border-y-2 border-dashed border-[#13131833] py-12">
+                          <div class="w-full mx-auto text-center space-y-6  border-y-2 border-dashed border-[#13131833] mb-20 py-12">
                               <h1 class="text-3xl md:text-4xl  font-extrabold text-[#131318]">Get In Touch</h1>
                               <p class="text-base font-medium text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
                            </div>
                           <!-- bottom-side-content-here -->
-                             <div class="flex flex-col md:flex-row gap-12 my-16">
+                             <div class="flex flex-col md:flex-row gap-12">
                                 <!-- left-side-content -->
                                  <div class="w-full md:w-[40%] p-6 md:p-10 mx-auto space-y-6 border-2 border-[#1313181A] rounded-2xl">
                                     <!-- card-1 -->
@@ -649,7 +649,7 @@
                                                 <label class="form-control text-xl font-bold text-[#131318] mb-2">Message</label>
                                                 <textarea
                                                 placeholder="Write your message"
-                                                class=" input outline-0 w-full bg-[#13131808] placeholder:text-[#1313184D] placeholder:text-base h-full"></textarea>
+                                                class=" input outline-0 w-full bg-[#13131808] placeholder:text-[#1313184D] placeholder:text-base  h-[200px] md:h-[300px]"></textarea>
                                                 <button class="btn bg-[#FF4240] text-white w-full">Send Message</button>
                                              </div>
                                          </div>
@@ -659,9 +659,69 @@
                          </div> 
                      </div>
              </section>
-                 
-         
-      </main>
 
+         <!-- social-media-section -->
+               <section class="pb-10 md:py-24">
+                  <!-- container -->
+                     <div class="container mx-auto bg-[#13131808] py-10 rounded-xl">
+                         <!-- wrap -->
+                            <div class="flex flex-col justify-center items-center gap-4 text-2xl font-bold">
+                                <h2>Social Media</h2>
+                                <div class="flex gap-4 ">
+                                    <span><i class="fa-solid fa-x"></i></span>
+                                    <span><i class="fa-brands fa-facebook"></i></span>
+                                    <span><i class="fa-brands fa-instagram"></i></span>
+                                    <span><i class="fa-brands fa-github"></i></span>
+                              </div>
+                          </div>
+                    </div>
+                </section>
+          </main>
+
+        <!-- footer-here -->
+        <footer class="footer bg-black text-base-content py-10 px-6 lg:px-16 xl:px-32">
+              <div class="container m-auto flex flex-col sm:flex-row justify-between items-start sm:items-start gap-12 md:py-10">
+                <aside class="w-[80%] sm:w-[40%] sm:mx-auto">
+                     <h1 class="text-2xl font-extrabold text-white mb-4">Get In Touch</h1>
+                    <p class="text-base font-normal text-[#FFFFFF99] ">
+                        Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. 
+                    </p>
+                     <div class="py-4">
+                         <span class="text-orange-600 mr-2"><i class="fa-solid fa-message"></i></span>
+                          <span class="text-[#FFFFFFCC]">hockeys@support.com</span>
+                     </div>
+                     <div>
+                         <span class="text-orange-500 mr-2"><i class="fa-solid fa-phone"></i></span>
+                         <span class="text-[#FFFFFFCC]">(+62) 123-321-543</span>
+                     </div>
+                  </aside>
+                  <!-- bottom-div -->
+                   <div class="w-full sm:w-[60%] flex flex-col sm:flex-row sm:justify-between items-start sm:items-center gap-6 flex-wrap flex-1">
+                    <nav class="flex flex-col justify-center items-start gap-3 ">
+                        <h6 class="font-medium text-lg text-white">Company</h6>
+                        <a class="link link-hover text-[#FFFFFF99]">Branding</a>
+                        <a class="link link-hover text-[#FFFFFF99]">Design</a>
+                        <a class="link link-hover text-[#FFFFFF99]">Marketing</a>
+                        <a class="link link-hover text-[#FFFFFF99]">Advertisement</a>
+                      </nav>
+                      <nav class="flex flex-col justify-center items-start gap-3">
+                        <h6 class=" font-medium text-lg text-white">Support</h6>
+                        <a class="link link-hover text-[#FFFFFF99]">Help Center</a>
+                        <a class="link link-hover text-[#FFFFFF99]">FAQ</a>
+                        <a class="link link-hover text-[#FFFFFF99]">Ticket Support</a>
+                        <a class="link link-hover text-[#FFFFFF99]">Contact Us</a>
+                      </nav>
+                      <nav class="flex flex-col justify-center items-start gap-3">
+                        <h6 class="font-medium text-lg text-white">Services</h6>
+                        <a class="link link-hover text-[#FFFFFF99]">Academy</a>
+                        <a class="link link-hover text-[#FFFFFF99]">Group Lesson</a>
+                        <a class="link link-hover text-[#FFFFFF99]"> Private Lesson</a>
+                        <a class="link link-hover text-[#FFFFFF99]"> Hockeys for kids</a>
+                        <a class="link link-hover text-[#FFFFFF99]">Hockeys for Adult</a>
+                      </nav>
+                   </div>
+                 
+              </div>
+          </footer>
 </body>
 </html>
